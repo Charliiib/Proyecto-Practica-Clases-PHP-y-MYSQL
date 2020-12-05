@@ -24,9 +24,8 @@
                         <input type="text" name="prdNombre" value="<?= $producto['prdNombre'] ?>" class="form-control" id="prdNombre" required>
                 </div>
 
-                
-                <div class="input-group mb-2">
-                    <label for="prdPrecio">Precio del Producto</label>
+                <label for="prdPrecio">Precio del Producto</label>
+                    <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text">$</div>
                         </div>
@@ -71,10 +70,10 @@
                         <input type="number" name="prdStock" value="<?= $producto['prdStock'] ?>" class="form-control" id="prdStock" min="0" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="prdImagen">Imagen del Producto:<br>
+                <label for="prdImagen">Imagen del Producto:<br>
+                    <div class="form-group">
                         <img src="productos/<?= $producto['prdImagen'] ?>" class="img-thumbnail">
-                    </label>
+                </label>
                         <input type="file" name="prdImagen" class="form-control-file" id="prdImagen">
                 </div>
 

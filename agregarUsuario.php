@@ -9,7 +9,7 @@
 ?>
 
 <main class="container">
-    <h1>Alta de un Usuario</h1>
+    <h1>Alta de un usuario</h1>
 
 <?php
     $class = 'danger';

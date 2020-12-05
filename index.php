@@ -15,7 +15,7 @@
 <?php
         while ( $producto = mysqli_fetch_assoc($productos) ){
 ?>
-            <div class="card col-lg-3 col-md-6 col-sm-12 ml-5 mb-5 text-center">
+            <div class="card col-lg-3 col-md-6 col-sm-12 ml-5 mb-5 mt-5 text-center">
                 <img src="productos/<?= $producto['prdImagen'] ?>" class="card-img-top">
                 <hr>
                     <h2><?= $producto['prdNombre'] ?></h2>

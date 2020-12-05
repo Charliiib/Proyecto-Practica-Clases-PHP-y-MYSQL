@@ -23,9 +23,8 @@
                         <input type="text" name="prdNombre" class="form-control" id="prdNombre" required>
                 </div>
 
-                
-                <div class="input-group mb-2">
-                    <label for="prdPrecio">Precio del Producto</label>
+                <label for="prdPrecio">Precio del Producto</label>
+                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text">$</div>
                         </div>
