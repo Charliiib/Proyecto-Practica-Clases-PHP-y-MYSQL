@@ -1,7 +1,7 @@
 <?php
 
     ###########################
-    ###### CRUD DE MARCAS #####
+    ###### CRUD DE MARCAS ######
     ###########################
 
 function listarMarcas(){
