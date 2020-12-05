@@ -9,7 +9,7 @@
 
         <div class="alert bg-light p-4 border col-8 mx-auto">
             <form action="login.php" method="post">
-                Usuario: <br>
+                Email: <br>
                 <input type="text" name="usuEmail" class="form-control"> <br>
                 Contraseña: <br>
                 <input type="password" name="usuPass" class="form-control"> <br>

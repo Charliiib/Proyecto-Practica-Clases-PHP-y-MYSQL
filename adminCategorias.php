@@ -9,7 +9,7 @@
 	include 'includes/nav.php';  
 ?>
 
-<main class="container">
+<main class="container mb-5">
         <h1>Panel de administración de Categorias</h1>
 
             <a href="admin.php" class="btn btn-outline-secondary my-3">
