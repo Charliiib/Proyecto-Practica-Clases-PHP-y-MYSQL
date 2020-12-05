@@ -1,6 +1,6 @@
 
-<footer class="footer">
-    <div class="container">
+<footer class="footer ">
+    <div class="container  ">
         <span class="text-muted">&copy; <?php  echo date('Y');  ?> Todos los derechos reservados.</span>
     </div>
 </footer>
