@@ -1,6 +1,8 @@
 <?php  
     require 'config/config.php';
     require 'funciones/conexion.php';
+    require 'funciones/autenticar.php';
+    autenticar();
     require 'funciones/usuarios.php';
         $chequeo = eliminarUsuario();
 	include 'includes/header.html';  

@@ -1,8 +1,11 @@
 <?php  
     require 'config/config.php';
     require 'funciones/conexion.php';
+            require 'funciones/autenticar.php';
+    autenticar();
     require 'funciones/categorias.php';
         $chequeo = eliminarCategoria();
+
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>
